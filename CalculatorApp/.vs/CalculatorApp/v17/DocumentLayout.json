@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Suporte\\Desktop\\projects\\Dio\\desafio-08\\CalculatorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C88348-A2AA-49C6-896E-1376A5CF364E}|..\\CalculatorAppTest\\CalculatorAppTest.csproj|c:\\users\\suporte\\desktop\\projects\\dio\\desafio-08\\calculatorapptest\\entities\\calculatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C00BD91-F8C5-48D1-9597-54AB3AB1D51A}|CalculatorApp.csproj|c:\\users\\suporte\\desktop\\projects\\dio\\desafio-08\\calculatorapp\\entities\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C00BD91-F8C5-48D1-9597-54AB3AB1D51A}|CalculatorApp.csproj|solutionrelative:entities\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C00BD91-F8C5-48D1-9597-54AB3AB1D51A}|CalculatorApp.csproj|c:\\users\\suporte\\desktop\\projects\\dio\\desafio-08\\calculatorapp\\entities\\icalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C00BD91-F8C5-48D1-9597-54AB3AB1D51A}|CalculatorApp.csproj|solutionrelative:entities\\icalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:229565822:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICalculator.cs",
+              "DocumentMoniker": "C:\\Users\\Suporte\\Desktop\\projects\\Dio\\desafio-08\\CalculatorApp\\Entities\\ICalculator.cs",
+              "RelativeDocumentMoniker": "Entities\\ICalculator.cs",
+              "ToolTip": "C:\\Users\\Suporte\\Desktop\\projects\\Dio\\desafio-08\\CalculatorApp\\Entities\\ICalculator.cs",
+              "RelativeToolTip": "Entities\\ICalculator.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA9wD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T19:53:32.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\Suporte\\Desktop\\projects\\Dio\\desafio-08\\CalculatorApp\\Entities\\Calculator.cs",
+              "RelativeDocumentMoniker": "Entities\\Calculator.cs",
+              "ToolTip": "C:\\Users\\Suporte\\Desktop\\projects\\Dio\\desafio-08\\CalculatorApp\\Entities\\Calculator.cs",
+              "RelativeToolTip": "Entities\\Calculator.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwEoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T19:53:18.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculatorTest.cs",
+              "DocumentMoniker": "C:\\Users\\Suporte\\Desktop\\projects\\Dio\\desafio-08\\CalculatorAppTest\\Entities\\CalculatorTest.cs",
+              "RelativeDocumentMoniker": "..\\CalculatorAppTest\\Entities\\CalculatorTest.cs",
+              "ToolTip": "C:\\Users\\Suporte\\Desktop\\projects\\Dio\\desafio-08\\CalculatorAppTest\\Entities\\CalculatorTest.cs",
+              "RelativeToolTip": "..\\CalculatorAppTest\\Entities\\CalculatorTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T19:26:39.44Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
