@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalculatorAppTest</name>
+    </assembly>
+    <members>
+        <member name="T:CalculatorAppTest.Entities.CalculatorFixture">
+            <summary>
+            Utilizada para os testes da entidade Calculadora
+            </summary>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorFixture.#ctor">
+            <summary>
+            TearUp - Inicialização das entidade utilizadas nos testes
+            </summary>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorFixture.Dispose(System.Boolean)">
+            <summary>
+            Método destrutor da classe
+            </summary>
+            <param name="disposing">Executa rotinas adicionais</param>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorFixture.Dispose">
+            <summary>
+            TearDown - Finalização das entidades utilizadas nos testes
+            </summary>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorFixture.Finalize">
+            <summary>
+            Método destrutor da classe
+            </summary>
+        </member>
+        <member name="P:CalculatorAppTest.Entities.CalculatorFixture.CalculatorTest">
+            <summary>
+            Instância da entidade calculadora
+            </summary>
+        </member>
+        <member name="T:CalculatorAppTest.Entities.CalculatorTest">
+            <summary>
+            Teste dos métodos da entidade Calculadora
+            </summary>
+            <remarks>
+            TearUp - Inicialização das entidade utilizadas nos testes
+            </remarks>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorTest.#ctor(CalculatorAppTest.Entities.CalculatorFixture)">
+            <summary>
+            Teste dos métodos da entidade Calculadora
+            </summary>
+            <remarks>
+            TearUp - Inicialização das entidade utilizadas nos testes
+            </remarks>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorTest.MustAddWhenEnteringTwoNumbersReturningSuccess(System.Double,System.Double,System.Double)">
+            <summary>
+            Deve retornar sucesso ao somar dois números
+            </summary>
+            <param name="numberOne">Primeiro número</param>
+            <param name="numberTwo">Segundo número</param>
+            <param name="result">Resultado da operação</param>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorTest.MustSubtractWhenEnteringTwoNumbersReturningSuccess(System.Double,System.Double,System.Double)">
+            <summary>
+            Deve retornar sucesso ao subtrair dois números
+            </summary>
+            <param name="numberOne">Primeiro número</param>
+            <param name="numberTwo">Segundo número</param>
+            <param name="result">Resultado da operação</param>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorTest.MustMultiplyWhenEnteringTwoNumbersReturningSuccess(System.Double,System.Double,System.Double)">
+            <summary>
+            Deve retornar sucesso ao multiplicar dois números
+            </summary>
+            <param name="numberOne">Primeiro número</param>
+            <param name="numberTwo">Segundo número</param>
+            <param name="result">Resultado da operação</param>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorTest.MustToDivideWhenEnteringTwoNumbersReturningSuccess(System.Double,System.Double,System.Double)">
+            <summary>
+            Deve retornar sucesso ao dividir dois números
+            </summary>
+            <param name="numberOne">Primeiro número</param>
+            <param name="numberTwo">Segundo número</param>
+            <param name="result">Resultado da operação</param>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorTest.MustCalculateThePowerByEnteringAnumberAndItsExponentReturningSuccess(System.Double,System.Double,System.Double)">
+            <summary>
+            Deve retornar sucesso ao calcular a potência de um número
+            </summary>
+            <param name="number">Número</param>
+            <param name="expoent">Expoente</param>
+            <param name="result">Resultado da operação</param>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorTest.MustCalculateTheSquareRootByEnteringAnumberReturningSuccess(System.Double,System.Double)">
+            <summary>
+            Deve retornar sucesso ao calcular a raiz quadrada de um número
+            </summary>
+            <param name="number">Número</param>
+            <param name="result">Resultado da operação</param>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorTest.MustCalculateTheCubitRootByEnteringAnumberReturningSuccess(System.Double,System.Double)">
+            <summary>
+            Deve retornar sucesso ao calcular a raiz cúbica de um número
+            </summary>
+            <param name="number">Número</param>
+            <param name="result">Resultado da operação</param>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorTest.MustCalculateTheFactorialByEnteringAnumberReturningSuccess(System.Double,System.Double)">
+            <summary>
+            Deve retornar sucesso ao calcular o fatorial de um número
+            </summary>
+            <param name="number">Número</param>
+            <param name="result">Resultado da operação</param>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorTest.MustCalculateTheLogarithmByEnteringAnumberReturningSuccess(System.Double,System.Double)">
+            <summary>
+            Deve retornar sucesso ao calcular o logarítmo de um número
+            </summary>
+            <param name="number">Número</param>
+            <param name="result">Resultado da operação</param>
+        </member>
+        <member name="M:CalculatorAppTest.Entities.CalculatorTest.MustVerifyHistoricalInfoReturningSuccess">
+            <summary>
+            Deve retornar sucesso ao verificar as últimas operações gravadas no histórico
+            </summary>
+        </member>
+    </members>
+</doc>

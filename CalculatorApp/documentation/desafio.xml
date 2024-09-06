@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalculatorApp</name>
+    </assembly>
+    <members>
+        <member name="T:CalculatorApp.Entities.Calculator">
+            <summary>
+            Api contendo a implementação dos principais métodos utilizados em uma calculadora
+            </summary>
+            <remarks>
+            Método construtor da classe
+            </remarks>
+            <param name="date">Data de registro das operações no histórico</param>
+        </member>
+        <member name="M:CalculatorApp.Entities.Calculator.#ctor(System.DateTime)">
+            <summary>
+            Api contendo a implementação dos principais métodos utilizados em uma calculadora
+            </summary>
+            <remarks>
+            Método construtor da classe
+            </remarks>
+            <param name="date">Data de registro das operações no histórico</param>
+        </member>
+        <member name="P:CalculatorApp.Entities.Calculator.History">
+            <inheritdoc/>
+        </member>
+        <member name="M:CalculatorApp.Entities.Calculator.Add(System.Double,System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CalculatorApp.Entities.Calculator.CalculatePower(System.Double,System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CalculatorApp.Entities.Calculator.CalculateSquareRoot(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CalculatorApp.Entities.Calculator.CalculateCubitRoot(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CalculatorApp.Entities.Calculator.CalculateFactorial(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CalculatorApp.Entities.Calculator.CalculateLogarithm(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CalculatorApp.Entities.Calculator.Multiply(System.Double,System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CalculatorApp.Entities.Calculator.Subtract(System.Double,System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CalculatorApp.Entities.Calculator.ToDivide(System.Double,System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:CalculatorApp.Entities.Calculator.RetrieveHistory">
+            <summary>
+            Monta o filtro de histórico para conter apenas as três últimas ações efetuadas
+            </summary>
+        </member>
+        <member name="M:CalculatorApp.Entities.Calculator.AddMessageToHistory(System.String,System.String)">
+            <summary>
+            Grava uma mensagem no histório
+            </summary>
+            <param name="method">Método</param>
+            <param name="message">Mensagem</param>
+        </member>
+        <member name="T:CalculatorApp.Entities.ICalculator">
+            <summary>
+            Contrato com os principais métodos utilizados em uma calculadora
+            </summary>
+        </member>
+        <member name="M:CalculatorApp.Entities.ICalculator.Add(System.Double,System.Double)">
+            <summary>
+            Soma dois números
+            </summary>
+            <param name="numberOne">Primeiro número</param>
+            <param name="numberTwo">Segundo número</param>
+            <returns>O resultado da operação</returns>
+        </member>
+        <member name="M:CalculatorApp.Entities.ICalculator.Subtract(System.Double,System.Double)">
+            <summary>
+            Subtrai dois números
+            </summary>
+            <param name="numberOne">Primeiro número</param>
+            <param name="numberTwo">Segundo número</param>
+            <returns>O resultado da operação</returns>
+        </member>
+        <member name="M:CalculatorApp.Entities.ICalculator.Multiply(System.Double,System.Double)">
+            <summary>
+            Multiplica dois números
+            </summary>
+            <param name="numberOne">Primeiro número</param>
+            <param name="numberTwo">Segundo número</param>
+            <returns>O resultado da operação</returns>
+        </member>
+        <member name="M:CalculatorApp.Entities.ICalculator.ToDivide(System.Double,System.Double)">
+            <summary>
+            Divide dois números
+            </summary>
+            <param name="numberOne">Primeiro número</param>
+            <param name="numberTwo">Segundo número</param>
+            <returns>O resultado da operação</returns>
+        </member>
+        <member name="M:CalculatorApp.Entities.ICalculator.CalculatePower(System.Double,System.Double)">
+            <summary>
+            Calcula a potência de um número
+            </summary>
+            <param name="number">Número</param>
+            <param name="expoent">Expoente</param>
+            <returns>O resultado da operação</returns>
+        </member>
+        <member name="M:CalculatorApp.Entities.ICalculator.CalculateSquareRoot(System.Double)">
+            <summary>
+            Calcula a raiz quadrada de um número
+            </summary>
+            <param name="number">Número</param>
+            <returns></returns>
+        </member>
+        <member name="M:CalculatorApp.Entities.ICalculator.CalculateCubitRoot(System.Double)">
+            <summary>
+            Calcula a raiz cúbica de um número
+            </summary>
+            <param name="number">Número</param>
+            <returns></returns>
+        </member>
+        <member name="M:CalculatorApp.Entities.ICalculator.CalculateFactorial(System.Double)">
+            <summary>
+            Calcula o fatorial de um número
+            </summary>
+            <param name="number">Número</param>
+            <returns></returns>
+        </member>
+        <member name="M:CalculatorApp.Entities.ICalculator.CalculateLogarithm(System.Double)">
+            <summary>
+            Calcula o logarítmo de um número
+            </summary>
+            <param name="number">Número</param>
+            <returns></returns>
+        </member>
+        <member name="P:CalculatorApp.Entities.ICalculator.History">
+            <summary>
+            Histórico com as operações realizadas
+            </summary>
+        </member>
+        <member name="T:CalculatorApp.Program">
+            <summary>
+            Representação do programa principal
+            </summary>
+        </member>
+        <member name="M:CalculatorApp.Program.Main(System.String[])">
+            <summary>
+            Método inicializador do programa
+            </summary>
+            <param name="_">Parâmetros adicionais - não utilizado</param>
+        </member>
+    </members>
+</doc>
